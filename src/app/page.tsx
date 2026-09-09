@@ -3,10 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const services = [
-  ['Kwamamariza website zindi', 'Dufasha website n’imishinga yo kuri internet kugera ku bantu benshi binyuze mu content na social media.'],
-  ['Promotions z’Abahanzi', 'Kwamamaza indirimbo, releases, videos, events n’izindi promotions z’abahanzi ku mbuga nkoranyambaga.'],
-  ['Promotions z’Aba Producers', 'Kwamamaza producers, studios, productions n’imishinga yabo kugira ngo ibashe kugera ku bakiriya n’abakunzi benshi.'],
-  ['Promotions z’Amaduka', 'Kwamamaza amaduka, products, offers na promotions kugira ngo bigere ku bakiriya benshi kandi byongere visibility.'],
+  ['Kwamamaza website zindi', 'Kwamamaza websites n’imishinga yo kuri internet, kugira ngo bigere ku bantu benshi.'],
+  ['Promotions z’Abahanzi', 'Kwamamaza indirimbo, releases, videos, events n’ibindi bikorwa by’abahanzi.'],
+  ['Promotions z’Aba Producers', 'Kwamamaza producers, studios, productions n’imishinga yabo ku bakunzi n’abakiriya.'],
+  ['Promotions z’Amaduka', 'Kwamamaza amaduka, products, offers na promotions kugira ngo bigere ku bakiriya benshi.'],
 ];
 
 export default function Home(){
@@ -22,7 +22,7 @@ export default function Home(){
   </section>
   <section id="services" className="bg-white text-[#202643] py-16"><div className="mx-auto max-w-7xl px-5"><div className="max-w-2xl"><p className="text-sm font-bold text-[#5869ef]">SERVICES</p><h2 className="mt-2 text-3xl md:text-4xl font-black">Kwamamaza ibikorwa byawe, bigere ku bantu benshi.</h2><p className="mt-4 text-[#70758a]">Dukora promotions zijyanye n’icyo ukora n’abantu ushaka kugeraho.</p></div><div className="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-5">{services.map(([title,desc])=><div key={title} className="rounded-2xl border border-[#eceef4] p-6 shadow-sm"><div className="h-10 w-10 rounded-xl bg-[#eef0ff] flex items-center justify-center text-[#5869ef] font-black">M</div><h3 className="mt-5 font-black">{title}</h3><p className="mt-2 text-sm leading-6 text-[#70758a]">{desc}</p></div>)}</div></div></section>
   <section id="about" className="bg-[#f7f8fb] text-[#202643] py-16"><div className="mx-auto max-w-7xl px-5 grid md:grid-cols-2 gap-10 items-center"><div><p className="text-sm font-bold text-[#5869ef]">ABOUT MEDitec</p><h2 className="mt-2 text-3xl font-black">Aho gucunga no kwamamaza content bihurira hamwe.</h2></div><p className="text-[#70758a] leading-7">MediTec yubakiye ku buryo bwo gutegura, gucunga no kwamamaza content mu buryo busukuye kandi bworoshye, hagamijwe gufasha businesses n’abakora content gukura.</p></div></section>
-  <section id="contact" className="bg-white text-[#202643] py-14"><div className="mx-auto max-w-7xl px-5 rounded-3xl bg-[#202643] text-white p-8 md:p-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6"><div><h2 className="text-3xl font-black">Ufite icyo ushaka kwamamaza?</h2><p className="mt-2 text-white/60">Tuganire ku promotion ikubereye.</p></div><a href="https://wa.me/250726969060" className="rounded-xl bg-[#5869ef] px-6 py-3 font-bold text-center">Twandikire kuri WhatsApp</a></div></section>
+  <section id="contact" className="bg-white text-[#202643] py-14"><div className="mx-auto max-w-7xl px-5 rounded-3xl bg-[#202643] text-white p-8 md:p-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6"><div><h2 className="text-3xl font-black">Ufite icyo ushaka kwamamaza?</h2><p className="mt-2 text-white/60">Tuganire ku promotion ikubereye.</p></div><a href="https://wa.me/250786513474" className="rounded-xl bg-[#5869ef] px-6 py-3 font-bold text-center">Twandikire kuri WhatsApp</a></div></section>
   <footer className="bg-[#202643] px-5 py-8 text-center text-sm text-white/50">© 2026 MediTec · Create • Promote • Grow</footer>
  </main>
 }
