@@ -1,10 +1,10 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { CalendarDays, Images, Instagram, Plus, UserRound, ListPlus, Clapperboard, History, Settings } from 'lucide-react';
+import { CalendarDays, Images, Instagram, Plus, LayoutDashboard, ListPlus, Clapperboard, History, Settings } from 'lucide-react';
 
 const items=[
-  ['/dashboard','Home',UserRound],
+  ['/admin','Admin',LayoutDashboard],
   ['/profiles','Profiles',Instagram],
   ['/gallery','Gallery',Images],
   ['/create','Create',Plus],
