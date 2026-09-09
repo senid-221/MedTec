@@ -1,0 +1,1 @@
+import PlaceholderPage from '@/components/PlaceholderPage'; export default function Reels(){return <PlaceholderPage title="Reels" description="Create and manage your real short-form video content."/>}
