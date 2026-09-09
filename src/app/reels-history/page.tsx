@@ -1,0 +1,1 @@
+import PlaceholderPage from '@/components/PlaceholderPage'; export default function ReelsHistory(){return <PlaceholderPage title="Reels history" description="Review your Reel history and status."/>}

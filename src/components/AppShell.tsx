@@ -1,0 +1,2 @@
+import Sidebar from './Sidebar'; import Topbar from './Topbar'; import MobileNav from './MobileNav';
+export default function AppShell({children}:{children:React.ReactNode}){return <div className="min-h-screen bg-[#202643]"><Sidebar/><Topbar/><main className="pt-[98px] lg:pt-[100px] lg:ml-[max(148px,calc(50% - 454px))] lg:mr-[max(16px,calc(50% - 590px))] pb-20 lg:pb-8"><div className="max-w-[1030px] mx-auto px-3 sm:px-5 lg:px-0">{children}</div></main><MobileNav/></div>}

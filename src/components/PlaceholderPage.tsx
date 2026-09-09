@@ -1,0 +1,2 @@
+import AppShell from './AppShell'; import SectionHeader from './SectionHeader';
+export default function PlaceholderPage({title,description,children}:{title:string;description:string;children?:React.ReactNode}){return <AppShell><SectionHeader title={title} description={description}/>{children??<div className="card p-10 text-center"><div className="text-5xl mb-4">✦</div><h2 className="font-bold text-lg">{title} workspace</h2><p className="text-sm text-[#7b8094] mt-2">The core workspace is ready. Connect Supabase to persist your real content.</p></div>}</AppShell>}

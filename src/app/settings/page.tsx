@@ -1,0 +1,1 @@
+import PlaceholderPage from '@/components/PlaceholderPage'; export default function Settings(){return <PlaceholderPage title="Settings" description="Manage your MediTec workspace and integrations."/>}
